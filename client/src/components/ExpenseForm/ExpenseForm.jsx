@@ -35,8 +35,9 @@ const ExpenseForm = () => {
                 <label>Date</label>
                 <input type="date" />
             </div>
-
+            <div className='add-expense-btn'>
             <button className='btn-primary'>Add expense</button>
+            </div>
         </form>
     </section>
     </>

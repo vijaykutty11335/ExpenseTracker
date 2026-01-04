@@ -53,3 +53,8 @@
     font-size: 25px;
     color: white;
 }
+.add-expense-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

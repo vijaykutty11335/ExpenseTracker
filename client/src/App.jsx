@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import ExpenseForm from "./components/ExpenseForm/ExpenseForm";
 import ExpenseList from "./components/ExpenseList/ExpenseList";
 import ExpenseItem from "./components/ExpenseItem/ExpenseItem";
+import ExpenseSummary from "./components/ExpenseSummary/ExpenseSummary";
 
 import "./App.css"
 
@@ -10,6 +11,7 @@ const App = () => {
     <>
     <Navbar/>
     <ExpenseForm/>
+    <ExpenseSummary/>
     <ExpenseList/>
     <ExpenseItem/>
     </>
